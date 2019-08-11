@@ -1,0 +1,35 @@
+// nav{
+//     background: #ccca;    
+//     ul{
+//         padding: 10px;
+
+//         #my-logo{
+//             display: inline;
+//             font-size: 1.7em;
+//         }
+//         .nav-link{
+//             float: right;
+                
+//             li{
+//                 display: inline;
+//                 margin-right: 1.6em; 
+//                 font-size: 1.2em;
+//             }
+//         }
+//         a{
+//             text-decoration: none;
+//             color:black;
+//         }
+//     }
+// }
+.nav-bg{
+    background-image: linear-gradient(2deg, #96939b55, #a8a8a844);
+    
+    .navbar-brand, .nav-link{
+        color: #7a1750;
+        font-size: 1.1em;
+    }
+    .nav-link li a:hover{
+        text-decoration: underline;
+    }
+}
