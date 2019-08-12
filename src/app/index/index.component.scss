@@ -1,5 +1,6 @@
+@import '../base.scss';
 .main-div{
-    background: #f0f0f0;
+    background: $main-white;
     height: 645px;
     width: 100%;
     position: relative;
@@ -9,10 +10,9 @@
 .main-div:after{
     content: "";
     position: absolute;
-    background: #e8e8e8;
+    background: $mid-white;
     height: 1200px;
-    width: 65%;
-    // transform: skew(-57deg);
+    width: 60%;
     clip-path: polygon(90% 0, 100% 0%, 100% 100%, 0% 100%);
     bottom: 0;
     right: 0;
@@ -26,11 +26,12 @@
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: space-around; 
+    // justify-content: space-around; 
     top: 5%;
     bottom: 5%;
     right: 10%;
     left: 10%;
+    // border: 3px solid #F2F2F2;
     box-sizing: border-box;
 
 
@@ -43,17 +44,25 @@
     }
 
     .main-info{
-        width: 400px;
-        color: #7A1750;  
+        position: absolute;
+        width: 450px;
+        color: $mid-black;
+        bottom: 8%;
+        left: 50%; 
         p{
             margin-top: 2rem;
         }
-        .btn-info{
+        .btn{
             width: 100%;
-            background: none;
-            border: 1px solid #564946;
-            color: #564946;
+            border: none;
+            background: $lt-white;
+            color: $dk-yellow;
             margin-top: 3rem;
+            font-size: 1.5rem;
+        }
+        .btn:focus{
+            border: none;
+            background: red;
         }
     }
 
