@@ -1,12 +1,21 @@
 @import '../base.scss';
+
+nav{
+    font-family: $lato;
+    font-size: 1.1em; 
+}
 .nav-bg{
     background-image: linear-gradient(2deg, $dk-grey, $lt-blue-grey);
     
     .navbar-brand, .nav-link{
         color: $main-black;
-        font-size: 1.1em;
+        // font-size: 1em;
     }
     .nav-link li:hover{
         text-decoration: underline;
+    }
+
+    .navbar-toggler{
+        color: white;
     }
 }

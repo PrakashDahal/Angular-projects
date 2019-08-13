@@ -1,7 +1,8 @@
 // Colors
+$lt-white: #F1F1F1;
 $main-white: #F0F0F0;
 $mid-white: #E8E8E8;
-$lt-white: #F1F1F1;
+$dk-white: #D8D8D8;
 $lt-cream-blue: #E5FDF8;
 
 $main-black: #171717;
@@ -19,3 +20,17 @@ $dk-brown: #564946;
 $dk-yellow: #EC9C4D;
 $dk-green: #516037;
 $dk-maroon:#7A1750;
+
+
+
+// FONTS
+
+@import url('https://fonts.googleapis.com/css?family=Blinker:400,600|Lato|PT+Sans|Raleway|Red+Hat+Display|Roboto+Condensed|Source+Sans+Pro&display=swap');
+
+$default: 'sans-serif';
+$blinker: 'Blinker';
+$red-hat: 'Red Hat Display';
+$roboto: 'Roboto Condensed';
+$sans-pro: 'Source Sans Pro';
+$pt-sans: 'PT Sans';
+$lato: 'Lato';
