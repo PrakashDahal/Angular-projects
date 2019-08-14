@@ -1,0 +1,18 @@
+@import '../../base.scss';
+
+#index-interest{
+    margin-top:10px; 
+    background-color:$white;
+    text-align: center;
+    .interests{
+        .interests-icons{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            border: 2px solid $mid-brown;
+            text-align: center;
+
+        }
+
+    }
+}
