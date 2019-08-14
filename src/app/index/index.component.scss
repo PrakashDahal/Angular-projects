@@ -21,6 +21,7 @@
     z-index: 888;
 }
 
+//image and information section
 
 .main-inner-div{
     content: '';
@@ -34,14 +35,12 @@
     right: 10%;
     left: 10%;
     // border: 3px solid #F2F2F2;
-    box-sizing: border-box;
-
-
+    
     .image-containt{
         height: 100%;
         img{
-            height: inherit;
-            width: inherit;
+            height: 90%;
+            width: 75%;
         }
     }
 
@@ -49,7 +48,7 @@
         position: absolute;
         width: 450px;
         color: $mid-black;
-        bottom: 8%;
+        bottom: 15%;
         left: 50%; 
 
         h2{
@@ -57,18 +56,36 @@
             font-size: 2.5rem;
             color: $dk-yellow;
         }
+
+        ul {
+            margin-top: 3rem;
+            padding: 0;
+            li{
+                margin-right: 3rem ;
+                display: inline;
+                .fa{
+                    font-size:2.7rem;
+                    color: $black-grey;
+                }
+                .fa:hover{
+                    color: $mid-black;
+
+                }
+            }
+        }
+
         p{
             font-family: $blinker;
             text-align: justify;
             font-size: 1.3rem;
-            margin-top: 2rem;
+            margin: 2rem 3px;
         }
         .btn{
             width: 100%;
             border: none;
             background: $dk-white;
             color: $dk-maroon;
-            margin-top: 3rem;
+            margin-top: 2rem;
             font-family: $blinker;
             font-size: 1.7rem;
         }
@@ -77,8 +94,7 @@
 
         }
         .btn:focus{
-            border: none;
-            background: red;
+            background: #C8C8C8;
         }
     }
 
@@ -87,17 +103,17 @@
     }
 }
 
+.small-image{
+    display: none;
+}
+
 
 // Media Query Responsive
 
 @media only screen and (max-width: 992px) {
     .main-inner-div {
-        top: 5%;
-        bottom: 5%;
-        right: 5%;
         left:5%;
-
-        width: 90%;
+        width: 95%;
         .image-containt{
             height: 90%;
             left: 0;
@@ -125,28 +141,46 @@
     .main-div{
         background: $main-white;
         height: 500px;
+        width: 100%;
     }
     
     .main-inner-div {
-        width: 60%;
-        display: flex;
-        align-items: center;
+        position: absolute;
+        // width: 100%;
         .image-containt{
             display: none;
         }
+        .small-image{
+            position: absolute;
+            top:0px;
+            left: 25%;
+            height: 210px;
+            width: 190px;
+            display: block;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
         .main-info{
-            top: 5%;
-            left: 5%;
-
-
+            position: absolute;
+            width: 90%;
+            left: 2%;
+            bottom: 0px;
             p{
                 font-size: 1.1rem;
+                margin: 2px;
             } 
+            ul{
+                margin: 10px;
+            }
             h2{
-                font-size: 2.1rem;
+                font-size: 2.0rem;
             }
             .btn{
-                font-size: 1.3rem;
+                font-size: 1.2rem;
+                margin-top: 3px;
             }
         }
       }
