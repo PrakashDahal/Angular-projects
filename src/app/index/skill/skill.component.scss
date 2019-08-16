@@ -1,9 +1,12 @@
 @import '../../base.scss';
+@import '../../common.scss';
+
 
 #index-skill{
     background-color: $main-white;
     padding: 30px 0px;
     text-align: center;
+    position: relative;
 
     h2{
         font-family: $roboto;

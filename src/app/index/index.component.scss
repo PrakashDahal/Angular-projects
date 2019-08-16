@@ -7,7 +7,7 @@
     overflow: hidden; 
 }
 
-.main-div:after{
+.main-div::after{
     content: "";
     position: absolute;
     background: $mid-white;
@@ -40,7 +40,7 @@
         height: 100%;
         img{
             height: 90%;
-            width: 75%;
+            width: 40%;
         }
     }
 
@@ -181,9 +181,11 @@
             .btn{
                 font-size: 1.2rem;
                 margin-top: 3px;
-            }
+                margin-bottom: 10px;
+            }   
         }
       }
+     
 } 
 
 
