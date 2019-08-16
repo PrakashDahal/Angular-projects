@@ -8,6 +8,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { NavBarComponent } from './header-footer/nav-bar/nav-bar.component';
 import { FooterComponent } from './header-footer/footer/footer.component';
 import { InterestComponent } from './index/interest/interest.component';
+import { SkillComponent } from './index/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InterestComponent } from './index/interest/interest.component';
     PortfolioComponent,
     NavBarComponent,
     FooterComponent,
-    InterestComponent
+    InterestComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
