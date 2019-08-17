@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'about', component: AboutComponent },
+  { path: '**', redirectTo: '/' },
 ];
 
 @NgModule({
