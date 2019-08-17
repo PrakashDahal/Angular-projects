@@ -1,0 +1,29 @@
+@import '../base.scss';
+@import '../common.scss';
+
+
+#about{
+    text-align: center;
+    
+    .about-first{
+        height: 640px;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url('../../assets/guitar.jpg'); 
+        width: 100%;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        color: $white;
+        position: relative;
+        text-align: center;
+    }
+
+    h2{
+        position: absolute;
+        font-family: $roboto;
+        font-size: 2.5rem;
+        color: $dk-green;
+        bottom: 0px;
+        right:50%;
+    }
+}
