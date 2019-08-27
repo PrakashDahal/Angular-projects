@@ -1,39 +1,43 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 // Colors
-$white:#FAF9F9;
-$lt-white: #F1F1F1;
-$main-white: #F0F0F0;
-$mid-white: #E8E8E8;
-$dk-white: #D8D8D8;
-$lt-cream-blue: #E5FDF8;
+$main-white: #f0f0f0;
+$main-black: #2d3142;
 
-$main-black: #171717;
-$black-grey: #555B6E;
-$mid-black: #374248;
-$dk-black-green: #212926;
+$main-grey: #adacb5;
+$main-blue: #2e6171;
+$main-yellow: #f3a712;
 
-$dk-grey: #96939B;
-$mid-grey: #A8A8A8;
-$lt-grey: #BFBFBF;
-$lt-blue-grey:#DEE9E8;
+$lt-white: #f1f1f1;
+
+$lt-grey: #e3e3e3;
+$lt-blue: #bdd4e7;
+$lt-brown: #918b76;
+$lt-yellow: #f8cf7d;
+$dk-white: #d8d8d8;
+
+$dk-grey: #96939b;
+$dk-blue: #252937;
+$dk-yellow: #ec9c4d;
 
 $dk-brown: #564946;
-$mid-brown: #49392C;
-
-$dk-yellow: #EC9C4D;
 $dk-green: #516037;
-$dk-maroon:#7A1750;
+$dk-maroon: #7a1750;
 
+$mid-black: #374248;
+$mid-grey: #a8a8a8;
+$mid-brown: #49392c;
 
+$white: #faf9f9;
+$blue-grey: #7389ae;
 
 // FONTS
 
-@import url('https://fonts.googleapis.com/css?family=Blinker:400,600|Lato|PT+Sans|Raleway|Red+Hat+Display|Roboto+Condensed|Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Blinker:400,600|Lato|PT+Sans|Raleway|Red+Hat+Display|Roboto+Condensed|Source+Sans+Pro&display=swap");
 
-$default: 'sans-serif';
-$blinker: 'Blinker';
-$red-hat: 'Red Hat Display';
-$roboto: 'Roboto Condensed';
-$sans-pro: 'Source Sans Pro';
-$pt-sans: 'PT Sans';
-$lato: 'Lato';
+$default: "sans-serif";
+$blinker: "Blinker";
+$red-hat: "Red Hat Display";
+$roboto: "Roboto Condensed";
+$sans-pro: "Source Sans Pro";
+$pt-sans: "PT Sans";
+$lato: "Lato";

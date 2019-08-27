@@ -1,38 +1,32 @@
-@import '../../base.scss';
-@import '../../common.scss';
+@import "../../base.scss";
+@import "../../common.scss";
 
+#index-skill {
+  background-color: $main-white;
+  padding: 30px 0px;
+  text-align: center;
+  position: relative;
 
-#index-skill{
-    background-color: $main-white;
-    padding: 30px 0px;
-    text-align: center;
-    position: relative;
+  h2 {
+    font-family: $roboto;
+    font-size: 2.2rem;
+    color: $main-blue;
+  }
+  .skill-icons {
+    height: 100px;
+    width: 100px;
+    margin: 30px auto;
+  }
 
-    h2{
-        font-family: $roboto;
-        font-size: 2.2rem;
-        color: $dk-green;
+  img {
+    height: 100px;
+    width: 100px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    img {
+      height: 70px;
+      width: 70px;
     }
-    .skill-icons{
-        height: 100px;
-        width: 100px;
-        margin: 30px auto;
-
-    }
-
-    img{
-        height: 100px;
-        width: 100px;
-    }
-
-    @media only screen and (max-width: 767px) {
-        img{
-            height: 70px;
-            width: 70px;
-        }
-    
-    }
+  }
 }
-
-
-

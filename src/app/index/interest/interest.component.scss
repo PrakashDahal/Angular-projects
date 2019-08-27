@@ -1,95 +1,103 @@
-@import '../../base.scss';
-@import '../../common.scss';
+@import "../../base.scss";
+@import "../../common.scss";
 
-.arrow-right, .arrow-left{
-    background: $mid-white;
+.arrow-right,
+.arrow-left {
+  background: $lt-grey;
 }
 
-#index-interest{
-    background-color: #DEE9E844;
+#index-interest {
+  background-color: #dee9e844;
 
-    padding: 30px 0px;
+  padding: 30px 0px;
+  text-align: center;
+  padding-bottom: 50px;
+  position: relative;
+
+  h2 {
+    font-family: $roboto;
+    font-size: 2.2rem;
+    color: $main-blue;
+  }
+
+  .row .interests {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .interest {
+    height: 270px;
+    width: 270px;
+    // clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    border-radius: 50%;
     text-align: center;
-    padding-bottom: 50px;
+    margin: 20px auto;
     position: relative;
-
-    h2{
-        font-family: $roboto;
-        font-size: 2.2rem;
-        color: $dk-green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h4 {
+      display: none;
+      position: absolute;
+      bottom: 15%;
+      left: 30%;
+      color: $main-white;
+      font-size: 2.1rem;
     }
-
-    .row .interests{
-        margin-top: 50px;
-        width: 100%; 
+    img {
+      display: contents;
     }
-    .interest{
-            height:270px;
-            width:270px;
-            // clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-            border-radius: 50%;
-            text-align: center;
-            margin: 20px auto;
-            position: relative;
-            background-position:center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            h4{
-                display: none;
-                position: absolute;
-                bottom: 15%;
-                left: 30%;
-                color: $lt-grey;
-                font-size: 2.1rem;
-            }
-            img{
-                display: contents;
-            }
-        }
+  }
 
-        .interest-music{
-            background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url('../../../assets/guitar.jpg'); 
-        }
-        .interest-travel{
-            background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url('../../../assets/mypic.jpeg'); 
-        }
-        .interest-coding{
-            background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url('../../../assets/coding.jpg'); 
-        }
-        
-        .interest:hover{
-            h4{
-                display: block;
-            }
-            cursor: pointer;
-        }
-        .interest-music:hover{
-            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../../../assets/guitar.jpg'); 
-        }
-        .interest-travel:hover{
-            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../../../assets/mypic.jpeg'); 
-        }
-        .interest-coding:hover{
-            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../../../assets/coding.jpg'); 
-        }
+  .interest-music {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../../../assets/guitar.jpg");
+  }
+  .interest-travel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../../../assets/mypic.jpeg");
+  }
+  .interest-coding {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../../../assets/coding.jpg");
+  }
 
-        .interest-containt{
-            // margin-top:20px;
-            width: 70%;
-            margin: auto;
-            h3{
-                font-family: $blinker;
-                margin:25px 5px;
-            }
-            p{
-                font-family: $lato;
-                font-size: 1.1rem;
-            }
-        }
+  .interest:hover {
+    h4 {
+      display: block;
+    }
+    cursor: pointer;
+  }
+  .interest-music:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/guitar.jpg");
+  }
+  .interest-travel:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/mypic.jpeg");
+  }
+  .interest-coding:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../../assets/coding.jpg");
+  }
+
+  .interest-containt {
+    // margin-top:20px;
+    width: 70%;
+    margin: auto;
+    h3 {
+      font-family: $blinker;
+      margin: 25px 5px;
+      color: $dk-blue;
+    }
+    p {
+      font-family: $lato;
+      font-size: 1.1rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .arrow-left{
-        background: $main-white;
-    }
+  .arrow-left {
+    background: $main-white;
+  }
 }
