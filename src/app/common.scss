@@ -1,18 +1,26 @@
-.arrow-right, .arrow-left{
-    height: 50px;
-    width: 50px;
-    background: $white;
-    position: absolute;
-    top:-30px;
-    left: 50%;
-    z-index: 899;
+.heading {
+  font-size: 2.2rem;
+  color: $main-blue;
+  margin-top: 10px;
+  font-family: $roboto;
 }
 
-.arrow-right{
-    transform: skew(-35deg) rotate(55deg); 
+.arrow-right,
+.arrow-left {
+  height: 50px;
+  width: 50px;
+  background: $white;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  z-index: 899;
 }
 
-.arrow-left{
-    transform: skew(35deg) rotate(-55deg); 
-    margin-left:-60px;
+.arrow-right {
+  transform: skew(-35deg) rotate(55deg);
+}
+
+.arrow-left {
+  transform: skew(35deg) rotate(-55deg);
+  margin-left: -60px;
 }

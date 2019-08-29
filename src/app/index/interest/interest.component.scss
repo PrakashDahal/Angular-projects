@@ -7,23 +7,21 @@
 }
 
 #index-interest {
-  background-color: #dee9e844;
+  background-color: $lt-white-blue;
 
   padding: 30px 0px;
   text-align: center;
   padding-bottom: 50px;
   position: relative;
 
-  h2 {
-    font-family: $roboto;
-    font-size: 2.2rem;
-    color: $main-blue;
-  }
-
   .row .interests {
     margin-top: 50px;
     width: 100%;
   }
+  .heading {
+    margin-bottom: 10px;
+  }
+
   .interest {
     height: 270px;
     width: 270px;
@@ -38,9 +36,9 @@
     h4 {
       display: none;
       position: absolute;
-      bottom: 15%;
-      left: 30%;
-      color: $main-white;
+      bottom: 38%;
+      left: 33%;
+      color: $lt-blue;
       font-size: 2.1rem;
     }
     img {
@@ -49,16 +47,13 @@
   }
 
   .interest-music {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("../../../assets/guitar.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/guitar.jpg");
   }
   .interest-travel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("../../../assets/mypic.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/mypic.jpeg");
   }
   .interest-coding {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("../../../assets/coding.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/coding.jpg");
   }
 
   .interest:hover {
@@ -68,20 +63,16 @@
     cursor: pointer;
   }
   .interest-music:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../../assets/guitar.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/guitar.jpg");
   }
   .interest-travel:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../../assets/mypic.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/mypic.jpeg");
   }
   .interest-coding:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../../assets/coding.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/coding.jpg");
   }
 
   .interest-containt {
-    // margin-top:20px;
     width: 70%;
     margin: auto;
     h3 {

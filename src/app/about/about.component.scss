@@ -9,8 +9,7 @@
     height: 645px;
     color: $white;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("../../assets/guitar.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/guitar.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,11 +25,6 @@
     bottom: 20%;
     left: 40%;
 
-    h2 {
-      font-family: $roboto;
-      font-size: 2.5rem;
-      color: $dk-green;
-    }
     p {
       font-family: $lato;
       font-size: 1.3rem;

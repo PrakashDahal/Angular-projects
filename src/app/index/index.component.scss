@@ -1,4 +1,6 @@
 @import "../base.scss";
+@import "../common.scss";
+
 .main-div {
   background: $main-white;
   height: 640px;
@@ -45,17 +47,11 @@
     bottom: 15%;
     left: 50%;
 
-    h2 {
-      font-family: $roboto;
-      font-size: 2.5rem;
-      color: $main-blue;
-    }
-
     ul {
+      text-align: center;
       margin-top: 3rem;
-      padding: 0;
       li {
-        margin-right: 3rem;
+        margin-right: 2.5rem;
         display: inline;
         .fa {
           font-size: 2.7rem;
