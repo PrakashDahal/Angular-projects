@@ -23,8 +23,8 @@
   }
 
   .carousel-indicators li {
-    margin-bottom: -15px;
-    background-color: green;
+    margin-bottom: -30px;
+    background-color: $main-blue;
   }
 
   @media only screen and (max-width: 767px) {
@@ -32,5 +32,10 @@
       height: 70px;
       width: 70px;
     }
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    filter: invert(100%);
   }
 }
