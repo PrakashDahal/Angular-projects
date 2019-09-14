@@ -46,6 +46,16 @@
     }
   }
 
+  .btn-info {
+    background-color: $lt-blue;
+    border: none;
+    color: $dk-maroon;
+    width: 100%;
+    p {
+      margin: 0px;
+    }
+  }
+
   .interest-music {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/guitar.jpg");
   }
