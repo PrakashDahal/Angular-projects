@@ -23,37 +23,59 @@
   }
 
   .interest {
-    height: 270px;
-    width: 270px;
-    // clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    border-radius: 50%;
+    height: 380px;
     text-align: center;
-    margin: 20px auto;
+    margin: auto;
+    margin-top: 20px;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    h4 {
+
+    .interest-containt {
+      width: 80%;
+      margin: auto;
+      padding-top: 30%;
+    }
+    h3,
+    p,
+    button {
+      font-family: $blinker;
       display: none;
-      position: absolute;
-      bottom: 38%;
-      left: 33%;
-      color: $lt-blue;
-      font-size: 2.1rem;
+      color: $lt-white-blue;
+    }
+    p {
+      font-family: $lato;
+      font-size: 1.2rem;
+      margin-bottom: 35px;
+      line-height: 30px;
+    }
+    button {
+      background-color: none;
+      border: 1px solid white;
+    }
+    p {
+      line-height: auto;
     }
     img {
       display: contents;
     }
   }
-
   .btn-info {
-    background-color: $lt-blue;
+    background-color: #00000010;
     border: none;
-    color: $dk-maroon;
     width: 100%;
     p {
       margin: 0px;
     }
+  }
+
+  .single-interest-title {
+    background-color: $main-blue;
+    color: $main-white;
+    width: 100%;
+    border: 0px;
+    padding: 10px;
   }
 
   .interest-music {
@@ -63,37 +85,25 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/mypic.jpeg");
   }
   .interest-coding {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../../assets/coding.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../assets/coding.jpg");
   }
 
   .interest:hover {
-    h4 {
+    h3,
+    p,
+    button {
       display: block;
     }
     cursor: pointer;
   }
   .interest-music:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/guitar.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/guitar.jpg");
   }
   .interest-travel:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/mypic.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/mypic.jpeg");
   }
   .interest-coding:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/coding.jpg");
-  }
-
-  .interest-containt {
-    width: 70%;
-    margin: auto;
-    h3 {
-      font-family: $blinker;
-      margin: 25px 5px;
-      color: $dk-blue;
-    }
-    p {
-      font-family: $lato;
-      font-size: 1.1rem;
-    }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../assets/coding.jpg");
   }
 }
 
